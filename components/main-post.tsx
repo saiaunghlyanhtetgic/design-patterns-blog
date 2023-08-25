@@ -19,8 +19,8 @@ const MainPost = ({
   slug,
 }: Props) => {
   return (
-    <section className='mt-8 w-full'>
-      <div className='w-full'>
+    <section className='mt-8'>
+      <div className=''>
       <div className="mb-8 md:mb-16 w-full">
         <CoverImage title={title} src={image} slug={slug} />
       </div>
